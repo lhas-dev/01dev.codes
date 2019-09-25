@@ -138,3 +138,8 @@ Podemos concluir que o paradigma funcional gira em torno de:
 As funções nativas do JavaScript mais famosas utilizadas na programação funcional são `.map()`, `.filter()` e `reduce()`.
 
 Sempre que uma função permitir receber outra função como parâmetro, é um forte indício de que você está lidando com este paradigma, como é o caso das funções listadas acima (recebem uma nova função como parâmetro).
+
+Referências:
+
+- https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
+- https://en.wikipedia.org/wiki/Functional_programming
