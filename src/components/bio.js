@@ -69,7 +69,6 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
   return (
     <Content>
       <Avatar src="/avatar.jpg" />
