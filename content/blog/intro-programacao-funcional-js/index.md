@@ -99,13 +99,15 @@ Como comentado acima, efeitos colaterais são qualquer mudança no estado de uma
 
 O importante aqui é que você procure evitar causar efeitos colaterais sem necessidade. Isso garantirá que sua aplicação será fácil de entender e testar.
 
-## 6. Reutilização de código (através de High Order Components, ou HOCs)
+## 6. Reutilização de código (através de High Order Functions, HOFs ou HOCs)
 
 Um dos princípios da mentalidade funcional é reutilizar o máximo de lógica comum em funções utilitárias, de forma que ela possa ser reutilizada e extendida conforme houver necessidade.
 
 Num paradigma de orientação a objetos, o seu objeto está limitado a usar os métodos que pertencem a ele.
 
-Já no paradigma funcional, você pode, através de funções compostas, criar novas funções totalmente extensíveis. Estas funções compostas são chamadas de High Order Components, ou HOCs. Isso significa que uma HOC é uma função que recebe outra função como parâmetro e retorna uma função totalmente nova. Um exemplo prático:
+Já no paradigma funcional, você pode, através de funções compostas, criar novas funções totalmente extensíveis. Estas funções compostas são chamadas de High Order Functions, ou HOFs. Isso significa que uma HOF é uma função que recebe outra função como parâmetro e retorna uma função totalmente nova. Um exemplo prático:
+
+> Observação: High Order Functions são exatamente a mesma coisa que High Order Components. Para quem já trabalha com bibliotecas como React, já deve estar familiarizado ou ouviu falar em uma destas expressões.
 
 ```js
 const maiorQue = num => num2 => num2 > num
