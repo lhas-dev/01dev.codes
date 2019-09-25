@@ -68,7 +68,12 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        href="https://fonts.googleapis.com/css?family=Be+Vietnam:300,400,500,800|Merriweather:300,400,700,900&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
   )
 }
 
