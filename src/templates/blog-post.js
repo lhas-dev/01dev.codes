@@ -23,6 +23,8 @@ const Content = styled.main`
   h1 {
     margin-top: 20px;
     font-weight: 900;
+    font-size: 40px;
+    line-height: 1.5;
     font-family: "Merriweather";
   }
 
@@ -37,19 +39,20 @@ const Content = styled.main`
     font-weight: 300;
     color: rgba(0, 0, 0, 0.75);
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
 
   section p {
     font-family: "Merriweather";
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
     font-weight: 300;
   }
 
   section p:first-child::first-letter {
     color: rgba(0, 0, 0, 0.8);
     font-size: 320%;
+    line-height: 30px;
     font-weight: 800;
     margin-right: 5px;
   }
@@ -78,8 +81,7 @@ class BlogPostTemplate extends React.Component {
             <div
               className="cover"
               style={{
-                backgroundImage:
-                  "url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80)",
+                backgroundImage: `url(${post.frontmatter.cover})`,
               }}
             />
             <header>
