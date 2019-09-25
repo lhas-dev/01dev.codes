@@ -61,7 +61,8 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
     const disqusConfig = {
-      url: `${this.props.data.site.siteMetadata.siteUrl + location.pathname}`,
+      url: `${this.props.data.site.siteMetadata.siteUrl +
+        this.props.location.pathname}`,
       identifier: post.id,
       title: post.title,
     }
