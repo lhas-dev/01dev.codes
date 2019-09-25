@@ -12,6 +12,8 @@ const Content = styled.main`
   max-width: 760px;
   margin: 0 auto;
   padding-top: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   .cover {
     width: 100%;

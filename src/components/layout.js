@@ -125,7 +125,7 @@ const Layout = ({ title, children }) => {
           </nav>
         </section>
       </Header>
-      <main>{children}</main>
+      {children}
       <Footer>
         <strong>01dev rocks!</strong> Escrito com <span>❤</span> desde 2017
       </Footer>
