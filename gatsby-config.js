@@ -10,6 +10,9 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-styled-components`,
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
