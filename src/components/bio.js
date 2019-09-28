@@ -56,19 +56,6 @@ const Avatar = styled.img`
 `
 
 const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      site {
-        siteMetadata {
-          author
-          social {
-            instagram
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <Content>
       <Avatar src="/avatar.jpg" />
