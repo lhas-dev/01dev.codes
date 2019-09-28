@@ -141,7 +141,18 @@ As funções nativas do JavaScript mais famosas utilizadas na programação func
 
 Sempre que uma função permitir receber outra função como parâmetro, é um forte indício de que você está lidando com este paradigma, como é o caso das funções listadas acima (recebem uma nova função como parâmetro).
 
-Referências:
+[Clique aqui para ler sobre programação funcional na prática com Javascript.](https://01dev.codes/na-pratica-programacao-funcional-js/)
+
+## Recomendações de Leitura
+
+Caso você queira se aprofundar em técnicas de programação funcional com JavaScript, deixo aqui a minha recomendação de dois excelentes livros que contribuiram muito para o crescimento da minha carreira:
+
+- [JavaScript: The Good Parts](https://amzn.to/2nqRxLR)
+- [Cangaceiro JavaScript: De padrões a uma abordagem funcional](https://amzn.to/2nwDtR2)
+
+![](https://media.makeameme.org/created/read-book-get.jpg)
+
+### Referências:
 
 - https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 - https://en.wikipedia.org/wiki/Functional_programming

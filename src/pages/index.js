@@ -31,7 +31,7 @@ const Content = styled.main`
   }
 
   article {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 
   p {

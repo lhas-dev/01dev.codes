@@ -44,7 +44,9 @@ const Content = styled.main`
     margin-bottom: 50px;
   }
 
-  section p {
+  section p,
+  section li,
+  section blockquote {
     font-family: "Merriweather";
     font-size: 18px;
     line-height: 2;

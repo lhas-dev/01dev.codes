@@ -119,9 +119,9 @@ const Layout = ({ title, children }) => {
             <Link to="/" style={{ fontSize: linkFontSize }}>
               Home
             </Link>
-            <Link to="/sobre" style={{ fontSize: linkFontSize }}>
+            {/* <Link to="/sobre" style={{ fontSize: linkFontSize }}>
               Sobre
-            </Link>
+            </Link> */}
           </nav>
         </section>
       </Header>
