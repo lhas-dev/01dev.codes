@@ -61,10 +61,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `01dev`,
-        short_name: `GatsbyJS`,
+        short_name: `01dev`,
         start_url: `/`,
-        background_color: `#007d92`,
-        theme_color: `#FFF`,
+        background_color: `#ffffff`,
+        theme_color: `#007d92`,
         display: `minimal-ui`,
         icon: `content/assets/01dev-icon.png`,
       },
