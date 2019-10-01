@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import styled from "styled-components"
 
-const Content = styled.main`
+export const Content = styled.main`
   width: 100%;
   max-width: 960px;
   margin: 0 auto;

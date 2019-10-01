@@ -75,22 +75,6 @@ function SEO({ description, lang, meta, title, cover }) {
         ].concat(meta)}
       />
       <Helmet>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-68682771-1"
-        ></script>
-        <script>
-          {`
-          window.dataLayer = window.dataLayer || [];
-
-        function gtag(){
-          dataLayer.push(arguments);
-        }
-        
-        gtag('js', new Date());
-
-        gtag('config', 'UA-68682771-1');`}
-        </script>
         <link
           href="https://fonts.googleapis.com/css?family=Be+Vietnam:300,400,500,800|Merriweather:300,400,700,900&display=swap"
           rel="stylesheet"
@@ -165,9 +149,9 @@ function SEO({ description, lang, meta, title, cover }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileColor" content="#007d92" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#007d92" />
       </Helmet>
     </>
   )

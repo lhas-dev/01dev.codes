@@ -10,6 +10,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://codes.us7.list-manage.com/subscribe/post?u=74d8632f3fac9f0b6c0d9edf4&amp;id=74d11a35c0", // add your MC list endpoint here; see instructions below
+      },
+    },
+    {
       resolve: `gatsby-plugin-styled-components`,
     },
     {
@@ -53,7 +60,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-68682771-1`,
       },
     },
     `gatsby-plugin-feed`,

@@ -113,15 +113,15 @@ const Layout = ({ title, children }) => {
       <Header>
         <section style={{ padding }}>
           <Link className="logo" style={{ fontSize: headingFontSize }} to="/">
-            {title}
+            01dev
           </Link>
           <nav>
             <Link to="/" style={{ fontSize: linkFontSize }}>
               Home
             </Link>
-            {/* <Link to="/sobre" style={{ fontSize: linkFontSize }}>
+            <Link to="/sobre" style={{ fontSize: linkFontSize }}>
               Sobre
-            </Link> */}
+            </Link>
           </nav>
         </section>
       </Header>

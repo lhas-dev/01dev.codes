@@ -1,10 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
+import addToMailchimp from "gatsby-plugin-mailchimp"
 import { Disqus } from "gatsby-plugin-disqus"
 
 const Content = styled.main`
@@ -60,9 +61,88 @@ const Content = styled.main`
     font-weight: 800;
     margin-right: 5px;
   }
+
+  div.newsletter {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    h2 {
+      color: #007d92;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-weight: 300;
+    }
+
+    input {
+      height: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    button {
+      background: #007d92;
+      color: #fff;
+      border: none;
+      height: 50px;
+      margin-left: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-weight: 300;
+      cursor: pointer;
+    }
+
+    p.spam {
+      margin-top: 10px;
+      margin-bottom: 0;
+      color: rgba(0, 0, 0, 0.2);
+    }
+  }
 `
 
+const Newsletter = () => {
+  const [sent, setSent] = useState(false)
+  const [email, setEmail] = useState("")
+
+  const handleNewsletterSubmit = event => {
+    event.preventDefault()
+
+    addToMailchimp(email)
+    setSent(true)
+  }
+
+  return (
+    <div className="newsletter">
+      {sent && <h2>Muito obrigado!</h2>}
+      {sent && <p>Você receberá novidades direto na sua caixa de entrada.</p>}
+      {!sent && <h2>Receba novidades por e-mail</h2>}
+      {!sent && (
+        <p>Você será sempre o primeiro a saber as novidades da 01dev</p>
+      )}
+      {!sent && (
+        <form onSubmit={handleNewsletterSubmit}>
+          <input
+            value={email}
+            onChange={event => setEmail(event.target.value)}
+            type="email"
+            placeholder="Seu melhor e-mail aqui"
+          />
+          <button type="submit">Inscreva-se já!</button>
+        </form>
+      )}
+      <p className="spam">Não vamos enviar spam! É uma promessa.</p>
+    </div>
+  )
+}
+
 class BlogPostTemplate extends React.Component {
+  state = { email: "" }
+
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -138,6 +218,7 @@ class BlogPostTemplate extends React.Component {
               <Bio />
             </footer>
           </article>
+          <Newsletter />
           <Disqus config={disqusConfig} />
         </Content>
       </Layout>
