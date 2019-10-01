@@ -13,7 +13,7 @@ Irei apresentar a você algumas das principais funções funcionais que você us
 
 - Como usar `map()`;
 - Como usar `filter()`;
-- Como usar `reducer()`;
+- Como usar `reduce()`;
 - O que é _currying_ e como aplicá-lo.
 
 ## Como usar map()
@@ -121,9 +121,9 @@ O exemplo acima irá retornar todos os usuários que o nickname contenha underli
 
 Esta função é muito útil, especialmente em situações de filtro de busca. Você pode do lado do cliente, fazer diversas filtragens sem depender de uma API para isso. :)
 
-## Como usar reducer()
+## Como usar reduce()
 
-O `reducer()` é o mais complicado, porém o mais poderoso destas 3 funções. Ele é bem flexível e versátil e pode ser usado em infinitos cenários. Descrevendo de forma técnica, o `reduce()`, aplica uma função em cada elemento do array, na expectativa de retornar um valor único.
+O `reduce()` é o mais complicado, porém o mais poderoso destas 3 funções. Ele é bem flexível e versátil e pode ser usado em infinitos cenários. Descrevendo de forma técnica, o `reduce()`, aplica uma função em cada elemento do array, na expectativa de retornar um valor único.
 
 Na nossa função enviada ao `reduce()`, nós temos acesso a alguns parâmetos, vou listar os mais importantes:
 
@@ -177,7 +177,7 @@ const books = [
 
 ## 3) Valores únicos de uma lista
 
-Você vai ter notado que o último livro aparece duas vezes. Isso acontece por que dois usuários diferentes tem o mesmo livro. A nossa amiga `reducer()` pode nos ajudar a retornar os valores únicos desse array:
+Você vai ter notado que o último livro aparece duas vezes. Isso acontece por que dois usuários diferentes tem o mesmo livro. A nossa amiga `reduce()` pode nos ajudar a retornar os valores únicos desse array:
 
 ```js
 const uniqueBooks = books.reduce((accumulator, currentValue) => {
@@ -191,7 +191,7 @@ const uniqueBooks = books.reduce((accumulator, currentValue) => {
 
 É mágico, não é?! :3
 
-Como eu comentei anteriormente, existem infinitos exemplos para o `reducer()`. Você poder ver mais alguns exemplos interessantes [aqui](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Examples).
+Como eu comentei anteriormente, existem infinitos exemplos para o `reduce()`. Você poder ver mais alguns exemplos interessantes [aqui](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Examples).
 
 ## O que é _currying_ e como aplicá-lo
 
