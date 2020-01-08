@@ -23,6 +23,11 @@ const Content = styled.main`
     background-position: center center;
   }
 
+  section img {
+    margin: 0 auto;
+    display: block;
+  }
+
   h1 {
     margin-top: 20px;
     font-weight: 900;
