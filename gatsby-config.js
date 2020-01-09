@@ -90,5 +90,6 @@ module.exports = {
         shortname: `0e1dev`,
       },
     },
+    `gatsby-plugin-feed`,
   ],
 }

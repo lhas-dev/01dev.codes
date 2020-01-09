@@ -214,6 +214,8 @@ return (
 
 ![Resultado final](./frontend.png)
 
+Código disponível em: https://github.com/lhas2/monorepo-sample
+
 ## Sugestões de Leitura
 
 Nós aprendemos como estruturar o projeto usando apenas o Workspaces, que é uma API mais "baixo nível" para organizar monorepos.
