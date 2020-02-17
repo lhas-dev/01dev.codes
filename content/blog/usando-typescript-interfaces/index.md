@@ -5,11 +5,11 @@ description: ""
 cover: "https://images.unsplash.com/photo-1568164528240-21ad793478dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
 ---
 
-Dando continuidade a nossa série de artigos sobre TypeScript, no #1postperday de hoje iremos falar sobre as Interfaces no TypeScrit: o que são? como usá-las?
+Dando continuidade a nossa série de artigos sobre [TypeScript](https://www.typescriptlang.org/), no #1postperday de hoje iremos falar sobre as Interfaces: o que são? como usá-las?
 
 ## O que são?
 
-A Interface é uma definição de contrato usada por uma entidade (seja ela uma variável ou uma função).
+A **Interface** é uma definição de contrato usada por uma entidade (seja ela uma variável ou uma função).
 
 Ou seja, ela define as especificações de sintaxe que uma entidade precisa ter.
 
@@ -161,7 +161,7 @@ São amplamente usadas em projetos para declaração de contratos de objetos.
 
 É especialmente útil para você manter a consistência na tipagem dos objetos do seu projeto conforme ele vai escalando.
 
-Aliado a editores de código modernos como VS Code, você terá uma experiência de desenvolvimento única no JavaScript, tendo a sua IDE completando sempre que possível o seu código, somente usando as declarações de interfaces da sua aplicação.
+Aliado a editores de código modernos como [VS Code](https://code.visualstudio.com/), você terá uma experiência de desenvolvimento única no JavaScript, tendo a sua IDE completando sempre que possível o seu código, somente usando as declarações de interfaces da sua aplicação.
 
 Espero que tenham gostado e até a próxima! 😺
 
