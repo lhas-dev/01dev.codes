@@ -59,14 +59,6 @@ const Content = styled.main`
     font-weight: 300;
   }
 
-  section p:first-child::first-letter {
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 320%;
-    line-height: 30px;
-    font-weight: 800;
-    margin-right: 5px;
-  }
-
   div.newsletter {
     width: 100%;
     padding: 50px;
