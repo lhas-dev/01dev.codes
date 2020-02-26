@@ -1,5 +1,5 @@
 ---
-title: "TypeScript: O que são Interfaces e como usá-las"
+title: "Usando TypeScript: O que são Interfaces e como usá-las"
 date: "2020-02-17T22:12:03.284Z"
 description: ""
 cover: "https://images.unsplash.com/photo-1568164528240-21ad793478dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
