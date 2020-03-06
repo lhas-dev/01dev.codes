@@ -5,9 +5,13 @@ description: ""
 cover: "https://images.unsplash.com/photo-1500621242946-fc62f4875073?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 ---
 
-Uma das maiores frustrações de entregar um site/PWA é quando o cliente pergunta "os usuários vão encontrá-lo na Play/App Store?"
+Hoje você vai aprender uma solução bala de prata pra resolver a dor de muito cliente por aí.
 
-Você ter que explicar que não, não vai rolar. E a ver a cara da pessoa de
+"Os usuários vão encontrá-lo na Play/App Store?", o cliente, otimista, pergunta.
+
+Você, com aquela cara de confuso, explica que não, não vai rolar.
+
+**SEUS PROBLEMAS ACABARAM!1!11!**
 
 Hoje, eu vou te dar o caminho das pedras para resolver esse problema de uma vez por todas.
 
