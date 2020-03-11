@@ -1,6 +1,6 @@
 ---
 title: "Usando TypeScript: Declarando Functions"
-date: "2020-02-17T22:12:03.284Z"
+date: "2020-03-11T22:12:03.284Z"
 description: ""
 cover: "https://images.unsplash.com/photo-1582832172472-c1ce8ec9c3fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
 ---
