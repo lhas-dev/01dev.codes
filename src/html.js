@@ -11,6 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <meta name="google-site-verification" content="wkWBvGUkR8rHsflmj2CekTskHLOmmAb2hVantDSO0c8" />
         <script
           data-ad-client="ca-pub-0714205864693219"
           async
